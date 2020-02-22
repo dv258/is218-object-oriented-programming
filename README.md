@@ -1,4 +1,5 @@
 # Explaining Object-Oriented Programming With Python
+[![Build Status](https://travis-ci.org/dv258/is218-object-oriented-programming.svg?branch=master)](https://travis-ci.org/dv258/is218-object-oriented-programming)
 
 The four principles of object-oriented programming are encapsulation, abstraction, inheritance, and polymorphism.
 

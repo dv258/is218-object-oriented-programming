@@ -29,6 +29,9 @@ class TestCases(unittest.TestCase):
 	def test_library_findBookByTitle_nonexisting(self):
 		self.assertEqual(self.library.findBookByTitle("not-existing"), None)
 
+	def test_animal_eat(self):
+		self.assertEqual(self.cat.eat(), "eating")
+
 	def test_makeNoise_cat(self):
 		self.assertEqual(makeNoise(self.cat), "meow")
 
